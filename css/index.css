@@ -144,3 +144,42 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my css code starts here */
+
+img{
+    /* border: solid black 2px; */
+    display: flex;
+    /* margin: 0 8%; */
+    float: left;
+}
+.menu{
+    /* border: solid black 2px; */
+    display: flex;
+    width: 28%;
+    justify-content: center;
+    justify-content: space-between; 
+    margin: 0 5% 0 15px;
+    padding-top: 25px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img.logo{
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
